@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="soundprocessing" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\.cache\;CMake Files\..\..\.cache\qi\;CMake Files\..\..\.cache\qi\toolchains\;CMake Files\..\..\.cache\qi\toolchains\naoqi-sdk\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\cmake\;CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\;CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\internal\;CMake Files\build-naoqi-sdk\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/percy/Challenge/soundprocess/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/percy/Challenge/soundprocess/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/percy/Challenge/soundprocess/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/percy/Challenge/soundprocess/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/percy/Challenge/soundprocess/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/percy/Challenge/soundprocess/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="soundprocessing">
+         <Option output="/home/percy/Challenge/soundprocess/build-naoqi-sdk/sdk/bin/soundprocessing" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/percy/Challenge/soundprocess/build-naoqi-sdk" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_ALL_DYN_LINK" />
+            <Add directory="/home/percy/naoqi-sdk-1.14.5-linux32/include" />
+            <Add directory="/home/percy/naoqi-sdk-1.14.5-linux32/include/alsoap" />
+            <Add directory="/home/percy/naoqi-sdk-1.14.5-linux32/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 soundprocessing" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="soundprocessing/fast">
+         <Option output="/home/percy/Challenge/soundprocess/build-naoqi-sdk/sdk/bin/soundprocessing" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/percy/Challenge/soundprocess/build-naoqi-sdk" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_ALL_DYN_LINK" />
+            <Add directory="/home/percy/naoqi-sdk-1.14.5-linux32/include" />
+            <Add directory="/home/percy/naoqi-sdk-1.14.5-linux32/include/alsoap" />
+            <Add directory="/home/percy/naoqi-sdk-1.14.5-linux32/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 soundprocessing/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/percy/Challenge/soundprocess/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/percy/Challenge/soundprocess/alsoundprocessing.cpp">
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/main.cpp">
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/alsoundprocessing.h">
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../.cache/qi/toolchains/naoqi-sdk/toolchain-naoqi-sdk.cmake">
+          <Option virtualFolder="CMake Files\..\..\.cache\qi\toolchains\naoqi-sdk\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/qibuild-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/general.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/log.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/set.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/subdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/python.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/find.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/flags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/target.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/submodule.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/option.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/codegen.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/gettext.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/internal/layout.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/internal/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/internal/glob.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/internal/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/internal/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/internal/uselib.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/../../../../usr/local/share/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/percy/Challenge/soundprocess/build-naoqi-sdk/dependencies.cmake">
+          <Option virtualFolder="CMake Files\build-naoqi-sdk\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

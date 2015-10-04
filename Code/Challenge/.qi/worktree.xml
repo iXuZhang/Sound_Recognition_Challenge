@@ -1,0 +1,4 @@
+<worktree>
+  <project src="soundprocess" />
+  <project src="soundprocesslocal" />
+</worktree>

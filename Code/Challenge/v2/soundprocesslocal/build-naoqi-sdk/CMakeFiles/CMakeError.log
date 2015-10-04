@@ -1,0 +1,106 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3242935972/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3242935972.dir/build.make CMakeFiles/cmTryCompileExec3242935972.dir/build
+make[1]: Entering directory `/home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3242935972.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3242935972.dir/CheckSymbolExists.c.o   -c /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3242935972
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3242935972.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3242935972.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3242935972 -rdynamic 
+CMakeFiles/cmTryCompileExec3242935972.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3242935972] Error 1
+make[1]: Leaving directory `/home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3242935972/fast] Error 2
+
+File /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2793176719/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2793176719.dir/build.make CMakeFiles/cmTryCompileExec2793176719.dir/build
+make[1]: Entering directory `/home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2793176719.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2793176719.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2793176719
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2793176719.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2793176719.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2793176719 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2793176719] Error 1
+make[1]: Leaving directory `/home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2793176719/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3978987687/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3978987687.dir/build.make CMakeFiles/cmTryCompileExec3978987687.dir/build
+make[1]: Entering directory `/home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3978987687.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3978987687.dir/CheckSymbolExists.c.o   -c /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3978987687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3978987687.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3978987687.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3978987687 -rdynamic 
+CMakeFiles/cmTryCompileExec3978987687.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3978987687] Error 1
+make: *** [cmTryCompileExec3978987687/fast] Error 2
+
+File /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2745281594/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2745281594.dir/build.make CMakeFiles/cmTryCompileExec2745281594.dir/build
+make[1]: Entering directory `/home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2745281594.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2745281594.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2745281594
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2745281594.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2745281594.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2745281594 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2745281594] Error 1
+make[1]: Leaving directory `/home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2745281594/fast] Error 2
+
+

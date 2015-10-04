@@ -1,0 +1,7 @@
+Sound Recognition Challenge:
+
++ fixed URL to sound files
++ robots have to be standing
++ a robot might raise one or both arms
++ an arm needs to be raised for only 3 instead of 5 seconds
++ the rules now include a more detailed description of a "raised arm"

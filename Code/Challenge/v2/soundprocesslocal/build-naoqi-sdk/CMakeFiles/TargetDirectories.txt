@@ -1,0 +1,1 @@
+/home/nao/Challenge/soundprocesslocal/build-naoqi-sdk/CMakeFiles/soundprocesslocal.dir
